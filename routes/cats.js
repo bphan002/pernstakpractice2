@@ -13,6 +13,9 @@ router
     .get((req, res) => {
         res.send('pages for cats')
     })
+    .delete((req, res) => {
+        res.send('deleted')
+    })
 
 
 
