@@ -16,6 +16,9 @@ router
     .delete((req, res) => {
         res.send('deleted')
     })
+    .update((req,res) => {
+        res.send('updated')
+    })
 
 
 
